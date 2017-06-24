@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: rgb(211,211,211);
+}
+
+/*I am providing a uniform color set for headers */
+h1, h2, h3, h4, h5, h6 {
+  background-color: gray;
+  text-align: center;
+  color:whitesmoke;
+}
+
+/* The RGB values work from 0-255: equal values of rgb will display a range of
+    black,gray, and white. */
+
+/* There are multiple types of background changes available:
+    background-color: changes the background to a solid color
+
+    background-image: sets the background to a predetermined image
+      -automatically the image will repeat horizontally and vertically
+      -syntax: background-image: url("inert image here");
+      - to restrict background repeat to only horizontally: background-repeat: repeat-x;
+      - restrict background repeat to only vetically: background-repeat: repeat-y;
+
+      
